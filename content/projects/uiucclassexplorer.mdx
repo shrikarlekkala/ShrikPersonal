@@ -1,0 +1,44 @@
+---
+title: "UIUC Class Explorer"
+description: Student platform to rate and review courses. Helps classeekers choose the right classes that match their interests and academic needs.
+date: "2023-12-12"
+repository: CS222-UIUC-FA23/group-project-team82
+published: true
+
+---
+
+
+Students often struggle to choose the right classes that match their interests and academic needs. The ClassRating app aims to provide a platform for students to rate and review their courses, helping fellow students make informed decisions about their class selections.
+
+## Functionality
+
+- **User Accounts:** Via email-based registration.
+- **Course Search:** By name, department, or professor.
+- **Course Information:** Including syllabus, prerequisites, and reviews.
+- **Course Rating:** Users provide numerical ratings and feedback after verification of course enrollment. This is crucial to maintain data integrity.
+- **Aggregated Data:** Overall ratings and reviews for courses to evaluate their quality.
+- **Follow System:** Users can monitor courses or professors for updates or new reviews.
+- **Personalized Recommendations:** Based on user interests, majors, or past ratings. Updates/recommendations will be dispatched via email or in-app notifications.
+
+## Technical Architecture:
+[![](/classapp.png)](https://www.metafrazo.ai)
+
+## Components
+
+### Backend:
+Leveraging JavaScript with a MySQL database for data storage. Functions include:
+
+- **User account functions**
+- **Course and review data management**
+- **Rating validation** to ensure users have taken the course they're reviewing
+- **Course recommendation algorithms** (time-permitting)
+
+### Frontend:
+Utilizing React for a responsive user experience, integrating React Router for seamless page transitions. Functions cover:
+
+- **Registration and login** (with flows ensuring students log in before rating)
+- **Course search, display, and recommendation engine integration**
+- **Rating and feedback mechanisms**
+- **Personalized dashboards** and user profile management
+
+**Note:** The authentication system will verify that students rating courses have indeed taken them to prevent false ratings. Basically, the login page needs to be passed through, so the person can even get to the course rating page. This is our security feature to make sure a person has taken a course.
