@@ -19,7 +19,7 @@ const socials = [
 	},
 	{
 		icon: <Linkedin size={20} />,
-		href: "https://linkedin.com/shrikar-lekkala",
+		href: "https://linkedin.com/in/shrikar-lekkala",
 		label: "LinkedIn",
 		handle: "Shrikar Lekkala",
 	},
