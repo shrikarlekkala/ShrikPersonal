@@ -38,11 +38,11 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "Chronark",
+    title: "ShrikarLekkala",
     card: "summary_large_image",
   },
   icons: {
-    shortcut: "/shrik1.jpg",
+    shortcut: "/favicon.jpg",
   },
 };
 const inter = Inter({
