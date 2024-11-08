@@ -45,6 +45,18 @@ export default function Home() {
           </Link> to allow creators to authentically translate any video with lipsync.
         </h2>
       </div>
+      <div className="my-16 text-center animate-fade-in">
+        <h2 className="text-sm text-zinc-500 ">
+          Click here to{" "}
+          <Link
+            target="_blank"
+            href="https://calendly.com/shrikar-lekkala/30min"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            BOOK A CALL
+          </Link> to learn more, demo metafrazo v2, or just chat
+        </h2>
+      </div>
     </div>
   );
 
