@@ -52,7 +52,7 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             book a call
-          </Link> or 
+          </Link> or, {" "}
 
           <Link
             target="_blank"
