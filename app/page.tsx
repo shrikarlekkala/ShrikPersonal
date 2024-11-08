@@ -31,6 +31,9 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         Shrikar Lekkala
       </h1>
+      <h2>
+        Tech Founder | AI in Language | Empowering Global Communication
+      </h2>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
@@ -45,14 +48,23 @@ export default function Home() {
           </Link> to allow creators to authentically translate any video with lipsync.
         </h2>
           <h2 className="text-sm text-zinc-500 ">
-          Click here to{" "}
+          If you'd like to chat,{" "}
           <Link
             target="_blank"
             href="https://calendly.com/shrikar-lekkala/30min"
             className="underline duration-500 hover:text-zinc-300"
           >
-            BOOK A CALL
-          </Link> to learn more, demo metafrazo v2, or just chat
+            book a call
+          </Link> or
+
+          <Link
+            target="_blank"
+            href="shrikar.lekkala@gmail.com"
+            className="underline duration-500 hover:text-zinc-300"
+          >
+            email me.
+          </Link>
+            Don't hesitate to reach out :)
         </h2>
       </div>
     </div>
