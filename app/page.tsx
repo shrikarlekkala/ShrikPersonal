@@ -31,7 +31,7 @@ export default function Home() {
       <h1 className="py-3.5 px-0.5 z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
         Shrikar Lekkala
       </h1>
-      <h2>
+      <h2 className="text-white">
         Tech Founder | AI in Language | Empowering Global Communication
       </h2>
 
@@ -55,16 +55,16 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             book a call
-          </Link> or
+          </Link> or 
 
           <Link
             target="_blank"
-            href="shrikar.lekkala@gmail.com"
+            href="mailto:shrikar.lekkala@gmail.com"
             className="underline duration-500 hover:text-zinc-300"
           >
             email me.
           </Link>
-            Don't hesitate to reach out :)
+              Don't hesitate to reach out :)
         </h2>
       </div>
     </div>
