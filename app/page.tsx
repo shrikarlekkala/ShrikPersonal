@@ -44,9 +44,7 @@ export default function Home() {
             metafrazo
           </Link> to allow creators to authentically translate any video with lipsync.
         </h2>
-      </div>
-      <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
+          <h2 className="text-sm text-zinc-500 ">
           Click here to{" "}
           <Link
             target="_blank"
