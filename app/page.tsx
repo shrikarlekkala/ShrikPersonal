@@ -52,14 +52,14 @@ export default function Home() {
             className="underline duration-500 hover:text-zinc-300"
           >
             book a call
-          </Link> or, {" "}
+          </Link> or {" "}
 
           <Link
             target="_blank"
             href="mailto:shrikar.lekkala@gmail.com"
             className="underline duration-500 hover:text-zinc-300"
           >
-            email me.
+            email me. 
           </Link>
               Don't hesitate to reach out :)
         </h2>
